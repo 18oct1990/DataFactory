@@ -68,6 +68,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('pngFilter').output.value",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "srccopydata",
